@@ -19,28 +19,28 @@ export const navigation = [
 ];
 
 export const brandPrinciples = {
-  eyebrow: "Missao, visao e valores",
-  title: "Tecnologia comercial com conviccao humana.",
+  eyebrow: "Missão, visão e valores",
+  title: "Tecnologia comercial com convicção humana.",
   description:
-    "A AnySale nasceu da uniao entre entusiasmo real por vendas e profundidade em tecnologia. Acreditamos que uma operacao comercial inteligente deve acelerar resultados sem perder leveza, contexto e valor para todos os envolvidos.",
+    "A AnySale nasceu da união entre entusiasmo real por vendas e profundidade em tecnologia. Acreditamos que uma operação comercial inteligente deve acelerar resultados sem perder leveza, contexto e valor para todos os envolvidos.",
   items: [
     {
-      label: "Missao",
+      label: "Missão",
       title: "Transformar tecnologia em conversas comerciais mais fluidas e eficazes.",
       description:
-        "Nossa missao e usar IA para tornar operacoes comerciais mais rapidas, organizadas e humanas, ajudando equipes a vender melhor sem abrir mao de contexto, clareza e relacionamento.",
+        "Nossa missão é usar IA para tornar operações comerciais mais rápidas, organizadas e humanas, ajudando equipes a vender melhor sem abrir mão de contexto, clareza e relacionamento.",
     },
     {
-      label: "Visao",
-      title: "Elevar o padrao de vendas com IA no mercado brasileiro.",
+      label: "Visão",
+      title: "Elevar o padrão de vendas com IA no mercado brasileiro.",
       description:
-        "Queremos construir a referencia em automacao comercial inteligente no Brasil, conectando velocidade, dados e time humano em uma nova forma de vender com escala e qualidade.",
+        "Queremos construir a referência em automação comercial inteligente no Brasil, conectando velocidade, dados e time humano em uma nova forma de vender com escala e qualidade.",
     },
     {
       label: "Valores",
-      title: "Pessoas no centro. Tecnologia com proposito. Venda boa e ganha-ganha.",
+      title: "Pessoas no centro. Tecnologia com propósito. Venda boa e ganha-ganha.",
       description:
-        "Valorizamos pessoas, transparencia e relacoes sustentaveis. Para nos, uma boa venda e leve, consultiva e benefica para todos: empresa, time comercial e cliente.",
+        "Valorizamos pessoas, transparência e relações sustentáveis. Para nós, uma boa venda é leve, consultiva e benéfica para todos: empresa, time comercial e cliente.",
     },
   ],
 };
