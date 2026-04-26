@@ -1,0 +1,23 @@
+:root {
+  --background: #040816;
+  --foreground: #f3f7ff;
+  --muted: rgba(164, 188, 245, 0.14);
+  --muted-foreground: #8ea1cd;
+  --card: rgba(9, 16, 35, 0.72);
+  --card-foreground: #f7f9ff;
+  --border: rgba(130, 160, 255, 0.16);
+  --primary: #6ce7ff;
+  --primary-foreground: #03101b;
+  --secondary: rgba(110, 231, 255, 0.1);
+  --secondary-foreground: #dbf8ff;
+  --accent: #8bffbf;
+  --accent-foreground: #032115;
+  --danger: #ff6b81;
+  --success: #78ffbe;
+  --radius: 28px;
+  --shadow-premium: 0 28px 80px rgba(2, 8, 23, 0.42);
+  --gradient-surface:
+    linear-gradient(180deg, rgba(10, 18, 40, 0.96), rgba(5, 9, 23, 0.82));
+  --gradient-line:
+    linear-gradient(90deg, rgba(108, 231, 255, 0), rgba(108, 231, 255, 0.65), rgba(139, 255, 191, 0));
+}

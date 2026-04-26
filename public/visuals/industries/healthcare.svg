@@ -1,0 +1,21 @@
+<svg width="720" height="420" viewBox="0 0 720 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="420" rx="28" fill="#081224"/>
+  <rect width="720" height="420" rx="28" fill="url(#bg)"/>
+  <rect x="88" y="90" width="214" height="16" rx="8" fill="#FFFFFF" fill-opacity="0.14"/>
+  <rect x="88" y="118" width="154" height="12" rx="6" fill="#FFFFFF" fill-opacity="0.08"/>
+  <rect x="126" y="176" width="470" height="170" rx="28" fill="#0F2144"/>
+  <rect x="186" y="216" width="64" height="92" rx="12" fill="#8BFFBF"/>
+  <rect x="172" y="230" width="92" height="64" rx="12" fill="#8BFFBF"/>
+  <rect x="316" y="216" width="216" height="20" rx="10" fill="#FFFFFF" fill-opacity="0.82"/>
+  <rect x="316" y="252" width="180" height="14" rx="7" fill="#FFFFFF" fill-opacity="0.2"/>
+  <rect x="316" y="280" width="122" height="14" rx="7" fill="#FFFFFF" fill-opacity="0.12"/>
+  <circle cx="602" cy="114" r="36" fill="#8BFFBF" fill-opacity="0.16"/>
+  <path d="M602 98V130" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+  <path d="M586 114H618" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+  <defs>
+    <radialGradient id="bg" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(190 22) rotate(35.8855) scale(616.755 538.341)">
+      <stop stop-color="#102247"/>
+      <stop offset="1" stop-color="#081224"/>
+    </radialGradient>
+  </defs>
+</svg>
