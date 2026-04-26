@@ -28,6 +28,14 @@ type HeroSignalMetric = {
   icon: LucideIcon;
 };
 
+type HeroPlan = {
+  label: string;
+  description: string;
+  highlight: string;
+  chips: string[];
+  icon: LucideIcon;
+};
+
 const heroSignalMetrics: HeroSignalMetric[] = [
   {
     label: "Tempo medio",
@@ -91,14 +99,39 @@ const sellerContext = [
   { label: "Proxima acao", value: "Demo 15:30" },
 ];
 
+const heroPlans: HeroPlan[] = [
+  {
+    label: "Essencial",
+    description: "WhatsApp com IA para responder, triar e iniciar follow-up com velocidade.",
+    highlight: "Entrada rápida",
+    chips: ["1 canal", "implantação ágil"],
+    icon: MessageCircle,
+  },
+  {
+    label: "Growth",
+    description: "WhatsApp, Instagram e CRM sincronizados para qualificação e repasse sem atrito.",
+    highlight: "Escala com contexto",
+    chips: ["2 canais", "CRM sync"],
+    icon: Activity,
+  },
+  {
+    label: "Scale",
+    description: "Orquestração comercial completa com handoff inteligente, prioridades e visão executiva.",
+    highlight: "Operação de ponta",
+    chips: ["multicanal", "time híbrido"],
+    icon: BarChart3,
+  },
+];
+
 function HeroVisual() {
   return (
     <motion.div
       initial={{ opacity: 0, scale: 0.96, y: 20 }}
       animate={{ opacity: 1, scale: 1, y: 0 }}
       transition={{ duration: 0.9, ease: [0.2, 1, 0.3, 1], delay: 0.15 }}
-      className="relative mx-auto w-full min-w-0 max-w-[640px]"
+      className="mx-auto w-full min-w-0 max-w-[640px] pb-20 lg:self-start lg:pb-24"
     >
+      <div className="relative">
       <div className="absolute -left-10 top-6 hidden h-24 w-24 rounded-full bg-primary/20 blur-3xl md:block" />
       <div className="absolute -right-8 bottom-14 hidden h-28 w-28 rounded-full bg-accent/20 blur-3xl md:block" />
 
@@ -424,7 +457,7 @@ function HeroVisual() {
         initial={{ opacity: 0, x: 16 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.6, delay: 0.82 }}
-        className="absolute bottom-0 right-6 hidden translate-y-1/2 rounded-[24px] border border-white/10 bg-[#091227]/92 p-4 shadow-[var(--shadow-premium)] backdrop-blur-xl xl:block"
+        className="absolute -bottom-10 right-6 hidden rounded-[24px] border border-white/10 bg-[#091227]/92 p-4 shadow-[var(--shadow-premium)] backdrop-blur-xl xl:block"
       >
         <div className="flex items-center gap-3">
           <div className="rounded-2xl bg-accent/12 p-3">
@@ -438,6 +471,7 @@ function HeroVisual() {
           </div>
         </div>
       </motion.div>
+      </div>
     </motion.div>
   );
 }
@@ -453,7 +487,7 @@ export function Hero() {
             transition={{ duration: 0.8, ease: [0.2, 1, 0.3, 1] }}
             className="relative z-10 max-w-2xl lg:flex lg:min-h-[760px] lg:w-full lg:max-w-none lg:flex-col lg:justify-between lg:self-stretch"
           >
-            <div>
+            <div className="lg:flex lg:flex-1 lg:flex-col">
               <Badge variant="accent" className="mb-6 min-h-9 px-4 py-0 leading-none">
                 IA comercial para equipes que querem vender na velocidade certa
               </Badge>
@@ -490,6 +524,79 @@ export function Hero() {
                     {pill}
                   </div>
                 ))}
+              </div>
+
+              <div className="mt-8 flex max-w-xl flex-1">
+                <div className="flex w-full flex-col overflow-hidden rounded-[30px] border border-white/10 bg-[linear-gradient(180deg,rgba(12,20,39,0.96),rgba(7,12,25,0.98))] p-5 shadow-[var(--shadow-premium)] lg:min-h-[340px] lg:p-6">
+                  <div className="flex items-start justify-between gap-4">
+                    <div>
+                      <p className="font-mono text-[11px] uppercase tracking-[0.28em] text-primary/80">
+                        Planos AnySale
+                      </p>
+                      <h2 className="mt-3 font-display text-2xl font-semibold tracking-[-0.04em] text-white">
+                        Modelos pensados para o estágio da sua operação.
+                      </h2>
+                    </div>
+                    <div className="rounded-full border border-primary/20 bg-primary/10 px-3 py-1 text-[11px] uppercase tracking-[0.24em] text-primary">
+                      Consultivo
+                    </div>
+                  </div>
+
+                  <p className="mt-4 max-w-2xl text-sm leading-7 text-muted-foreground">
+                    A AnySale pode entrar no primeiro canal, crescer com CRM e escalar para uma
+                    operação comercial orquestrada. O desenho final depende do volume de leads,
+                    canais e nível de automação desejado.
+                  </p>
+
+                  <div className="mt-6 grid gap-3">
+                    {heroPlans.map((plan) => {
+                      const Icon = plan.icon;
+
+                      return (
+                        <div
+                          key={plan.label}
+                          className="grid gap-4 rounded-[24px] border border-white/8 bg-white/5 p-4 sm:grid-cols-[auto_minmax(0,1fr)_auto] sm:items-center"
+                        >
+                          <div className="inline-flex size-12 items-center justify-center rounded-2xl border border-white/10 bg-white/6 text-primary">
+                            <Icon className="size-5" />
+                          </div>
+
+                          <div>
+                            <div className="flex flex-wrap items-center gap-3">
+                              <p className="text-lg font-semibold text-white">{plan.label}</p>
+                              <span className="rounded-full border border-accent/15 bg-accent/10 px-2.5 py-1 text-[11px] uppercase tracking-[0.22em] text-accent">
+                                {plan.highlight}
+                              </span>
+                            </div>
+                            <p className="mt-2 text-sm leading-6 text-muted-foreground">
+                              {plan.description}
+                            </p>
+                          </div>
+
+                          <div className="flex flex-wrap gap-2 sm:max-w-[170px] sm:justify-end">
+                            {plan.chips.map((chip) => (
+                              <span
+                                key={chip}
+                                className="rounded-full border border-white/10 bg-[#0a1429]/92 px-3 py-1.5 text-[11px] uppercase tracking-[0.22em] text-muted-foreground"
+                              >
+                                {chip}
+                              </span>
+                            ))}
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
+
+                  <div className="mt-auto pt-4">
+                    <div className="rounded-[22px] border border-white/8 bg-[linear-gradient(90deg,rgba(108,231,255,0.1),rgba(139,255,191,0.08))] px-4 py-3">
+                      <p className="text-sm font-medium text-white">
+                        Escopo e investimento definidos por canal, volume, equipe e complexidade
+                        da operação.
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
 
