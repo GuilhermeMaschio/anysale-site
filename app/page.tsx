@@ -7,6 +7,7 @@ import { Hero } from "@/components/Hero";
 import { HumanLayer } from "@/components/HumanLayer";
 import { Navbar } from "@/components/Navbar";
 import { Problem } from "@/components/Problem";
+import { ScrollToTop } from "@/components/ScrollToTop";
 import { Showcase } from "@/components/Showcase";
 import { Solution } from "@/components/Solution";
 
@@ -46,6 +47,7 @@ export default function Home() {
       </main>
 
       <Footer />
+      <ScrollToTop />
     </div>
   );
 }

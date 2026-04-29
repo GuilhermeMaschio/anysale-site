@@ -5,7 +5,7 @@ export const siteConfig = {
     "Automatize atendimento, converta leads e venda mais com Inteligência Artificial comercial da AnySale.",
   email: "contato@anysale.com.br",
   whatsappUrl:
-    "https://wa.me/5500000000000?text=Ol%C3%A1%21%20Quero%20conhecer%20a%20AnySale.",
+    "https://wa.me/5541998767971?text=Ol%C3%A1%21%20Quero%20conhecer%20a%20AnySale.",
   demoUrl: "#cta",
 };
 

@@ -517,7 +517,7 @@ export function Hero() {
                 {proofPills.map((pill, index) => (
                   <div
                     key={pill}
-                    className={`flex min-h-14 items-center rounded-[20px] border border-white/10 bg-white/6 px-5 py-3 text-[15px] font-medium text-foreground/88 shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] backdrop-blur-md ${
+                    className={`flex min-h-12 items-center rounded-[18px] border border-white/10 bg-white/6 px-4 py-2.5 text-sm font-medium text-foreground/88 shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] backdrop-blur-md ${
                       index === proofPills.length - 1 ? "sm:col-span-2" : ""
                     }`}
                   >
