@@ -167,13 +167,13 @@ export const industries = [
   {
     name: "Imobiliárias",
     image: "/visuals/industries/real-estate.svg",
-    description: "Capte, qualifique e agende visitas sem deixar lead esfriar.",
+    description: "Capte, qualifique e agende visitas sem deixar o lead esfriar.",
     metric: "Plantão digital ativo 24h",
   },
   {
     name: "Concessionárias",
     image: "/visuals/industries/automotive.svg",
-    description: "A IA atende, entende interesse e empurra o lead para o test-drive.",
+    description: "A IA atende, entende o interesse e empurra o lead para o test-drive.",
     metric: "Mais resposta em campanhas",
   },
   {
@@ -203,7 +203,7 @@ export const industries = [
   {
     name: "Prestadores de serviço",
     image: "/visuals/industries/services.svg",
-    description: "Atenda rápido, filtre demanda e acelere orçamentos e visitas.",
+    description: "Atenda rápido, filtre a demanda e acelere orçamentos e visitas.",
     metric: "Menos perda por demora",
   },
   {

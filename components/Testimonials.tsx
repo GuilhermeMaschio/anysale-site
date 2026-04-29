@@ -78,7 +78,9 @@ export function Testimonials() {
               Pronto para encaixar seus cases reais.
             </p>
             <p className="mt-2 max-w-2xl text-sm leading-6 text-muted-foreground">
-              A estrutura já suporta logos, depoimentos e números reais para mostrar como a AnySale fortalece equipes comerciais, não apenas automatiza mensagens.
+              A estrutura já suporta logos, depoimentos e números reais para mostrar
+              como a AnySale fortalece equipes comerciais, não apenas automatiza
+              mensagens.
             </p>
           </div>
           <div className="rounded-full border border-white/10 bg-white/6 px-4 py-2 text-sm text-white/80">

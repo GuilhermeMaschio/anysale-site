@@ -14,29 +14,29 @@ const productSignals = [
     description: "WhatsApp, Direct e CRM na mesma leitura operacional.",
   },
   {
-    label: "Priorizacao real",
-    description: "Lead quente, fila e gargalos visiveis para agir sem atraso.",
+    label: "Priorização real",
+    description: "Lead quente, fila e gargalos visíveis para agir sem atraso.",
   },
   {
     label: "Repasse pronto",
-    description: "Historico, intencao e proxima acao chegam juntos para o vendedor.",
+    description: "Histórico, intenção e próxima ação chegam juntos para o vendedor.",
   },
 ];
 
 const productCards = [
   {
-    eyebrow: "Central de operacao",
-    title: "O comercial enxerga o que entrou, o que anda e o que precisa de acao agora.",
+    eyebrow: "Central de operação",
+    title: "O comercial enxerga o que entrou, o que anda e o que precisa de ação agora.",
     description:
-      "Tempo de resposta, volume, origem e prioridades aparecem no mesmo painel para o gestor decidir rapido e o time agir sem ruido.",
+      "Tempo de resposta, volume, origem e prioridades aparecem no mesmo painel para o gestor decidir rápido e o time agir sem ruído.",
     image: "/visuals/dash-anysale.png",
     alt: "Painel da AnySale com indicadores comerciais, leads e desempenho operacional",
     imageWidth: 1536,
     imageHeight: 1024,
     stats: [
       { value: "182", label: "na fila" },
-      { value: "+38%", label: "ganho medio" },
-      { value: "7s", label: "1 resposta" },
+      { value: "+38%", label: "ganho médio" },
+      { value: "7s", label: "1ª resposta" },
     ],
   },
   {
@@ -52,11 +52,11 @@ const productCards = [
   },
   {
     eyebrow: "Funil sincronizado",
-    title: "O vendedor entra com direcao, nao do zero.",
+    title: "O vendedor entra com direção, não do zero.",
     description:
-      "O pipeline mostra score, etapa, prioridade e sincronizacao com CRM para cada oportunidade seguir com clareza.",
+      "O pipeline mostra score, etapa, prioridade e sincronização com CRM para cada oportunidade seguir com clareza.",
     image: "/visuals/anysale-pipeline.png",
-    alt: "Pipeline da AnySale com etapas, prioridades e sincronizacao comercial",
+    alt: "Pipeline da AnySale com etapas, prioridades e sincronização comercial",
     note: "Cada etapa existe para reduzir atraso, retrabalho e perda de lead no caminho.",
     imageWidth: 1536,
     imageHeight: 1024,
@@ -71,9 +71,9 @@ export function Showcase() {
       <div className="container-shell">
         <Reveal>
           <SectionHeading
-            eyebrow="Experiencia de produto"
-            title="Uma demonstracao que deixa claro onde a venda acelera."
-            description="Em poucos segundos, o cliente entende o que a AnySale faz: centraliza entradas, conversa com contexto e entrega o proximo passo para o time comercial."
+            eyebrow="Experiência de produto"
+            title="Uma demonstração que deixa claro onde a venda acelera."
+            description="Em poucos segundos, o cliente entende o que a AnySale faz: centraliza entradas, conversa com contexto e entrega o próximo passo para o time comercial."
           />
         </Reveal>
 
@@ -183,9 +183,7 @@ export function Showcase() {
                           <div className="rounded-full bg-accent/12 p-1.5">
                             <CheckCircle2 className="size-3.5 text-accent" />
                           </div>
-                          <p className="text-sm leading-6 text-white/84">
-                            {item.note}
-                          </p>
+                          <p className="text-sm leading-6 text-white/84">{item.note}</p>
                         </div>
                       </div>
                     </CardContent>

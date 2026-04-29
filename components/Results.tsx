@@ -63,7 +63,8 @@ export function Results() {
                     Receita responde ao tempo certo.
                   </p>
                   <p className="mt-2 text-sm leading-6 text-muted-foreground">
-                    Quanto mais cedo a IA começa a conversa, maior a chance do vendedor humano entrar com vantagem real na negociação.
+                    Quanto mais cedo a IA começa a conversa, maior a chance do
+                    vendedor humano entrar com vantagem real na negociação.
                   </p>
                 </div>
               </div>
@@ -110,7 +111,9 @@ export function Results() {
                 Mais resposta, mais contexto, mais fechamento humano.
               </p>
               <p className="mt-3 max-w-3xl text-base leading-7 text-muted-foreground">
-                A percepção do cliente melhora, o time comercial entra na hora certa e o funil deixa de depender de memória, agenda manual ou disponibilidade limitada.
+                A percepção do cliente melhora, o time comercial entra na hora certa e
+                o funil deixa de depender de memória, agenda manual ou disponibilidade
+                limitada.
               </p>
             </div>
             <div className="rounded-full border border-accent/18 bg-accent/10 px-5 py-3 text-sm font-semibold text-accent">

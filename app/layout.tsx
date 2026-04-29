@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   description: siteConfig.description,
   keywords: [
     "IA para vendas",
-    "automação whatsapp",
+    "automação WhatsApp",
     "bot vendedor",
     "lead automation",
     "IA comercial",

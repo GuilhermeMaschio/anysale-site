@@ -38,7 +38,8 @@ export function HumanLayer() {
                         A IA acelera o primeiro contato.
                       </h3>
                       <p className="text-base leading-7 text-muted-foreground sm:text-lg">
-                        Atendimento imediato, triagem automática e mais contexto para o time comercial entrar sem perder timing.
+                        Atendimento imediato, triagem automática e mais contexto para o
+                        time comercial entrar sem perder timing.
                       </p>
                     </div>
                   </div>

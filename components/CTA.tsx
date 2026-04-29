@@ -31,7 +31,8 @@ export function CTA() {
                 Deixe a IA sustentar o ritmo. Seu time entra para fechar melhor.
               </h2>
               <p className="mt-5 max-w-2xl text-lg leading-8 text-muted-foreground">
-                Atendimento instantâneo, follow-up inteligente e contexto pronto para o seu comercial vender com mais consistência no WhatsApp e Instagram.
+                Atendimento instantâneo, follow-up inteligente e contexto pronto para o
+                seu comercial vender com mais consistência no WhatsApp e Instagram.
               </p>
             </div>
 
