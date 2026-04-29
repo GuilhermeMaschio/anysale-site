@@ -10,9 +10,7 @@ export const siteConfig = {
 };
 
 export const navigation = [
-  { label: "Solução", href: "#solucao" },
-  { label: "Como funciona", href: "#como-funciona" },
-  { label: "Segmentos", href: "#segmentos" },
+  { label: "Produto", href: "#produto" },
   { label: "Resultados", href: "#resultados" },
   { label: "Cases", href: "#cases" },
   { label: "Empresa", href: "#empresa" },
@@ -122,7 +120,7 @@ export const showcaseCards = [
     title: "Visibilidade executiva para uma operação comercial que responde em tempo real.",
     description:
       "Indicadores, alertas e acompanhamento contínuo em uma interface que transmite controle, velocidade e maturidade de produto.",
-    image: "/visuals/command-center.svg",
+    image: "/visuals/dash-anysale.png",
     alt: "Painel executivo da plataforma AnySale com indicadores de leads, alertas e performance comercial",
     stats: [
       { label: "Leads monitorados", value: "182" },
@@ -143,7 +141,7 @@ export const showcaseCards = [
     title: "Pipeline limpo, priorizado e pronto para o time humano fechar.",
     description:
       "Cada oportunidade chega com histórico, classificação e direcionamento definidos para acelerar a venda.",
-    image: "/visuals/pipeline-sync.svg",
+    image: "/visuals/anysale-pipeline.png",
     alt: "Visual do pipeline AnySale com estágios, prioridades e sincronização com CRM",
   },
 ];
@@ -226,9 +224,7 @@ export const resultMetrics = [
 export const proofPills = [
   "IA acelera. Time humano fecha.",
   "Qualificação em escala",
-  "IA vendedora no WhatsApp",
-  "Automação no Instagram Direct",
-  "Funil comercial com inteligência",
+  "WhatsApp, Direct e CRM sincronizados",
 ];
 
 export const humanLayerData = {

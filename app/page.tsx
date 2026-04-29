@@ -6,17 +6,8 @@ import { Footer } from "@/components/Footer";
 import { Hero } from "@/components/Hero";
 import { HumanLayer } from "@/components/HumanLayer";
 import { Navbar } from "@/components/Navbar";
-import { Problem } from "@/components/Problem";
 import { ScrollToTop } from "@/components/ScrollToTop";
 import { Showcase } from "@/components/Showcase";
-import { Solution } from "@/components/Solution";
-
-const Features = dynamic(() =>
-  import("@/components/Features").then((module) => module.Features),
-);
-const Industries = dynamic(() =>
-  import("@/components/Industries").then((module) => module.Industries),
-);
 const Results = dynamic(() =>
   import("@/components/Results").then((module) => module.Results),
 );
@@ -34,13 +25,9 @@ export default function Home() {
 
       <main>
         <Hero />
-        <HumanLayer />
-        <Showcase />
-        <Problem />
-        <Solution />
-        <Features />
-        <Industries />
         <Results />
+        <Showcase />
+        <HumanLayer />
         <Testimonials />
         <BrandPrinciples />
         <CTA />

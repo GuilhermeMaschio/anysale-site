@@ -1,0 +1,108 @@
+<svg width="1200" height="820" viewBox="0 0 1200 820" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="hero-bg" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(248 80) rotate(28.6) scale(1190 918)">
+      <stop stop-color="#11264A"/>
+      <stop offset="1" stop-color="#07101F"/>
+    </radialGradient>
+    <linearGradient id="panel-stroke" x1="120" y1="100" x2="1100" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#203A66"/>
+      <stop offset="1" stop-color="#152340"/>
+    </linearGradient>
+    <linearGradient id="connector" x1="418" y1="410" x2="780" y2="410" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6CE7FF"/>
+      <stop offset="1" stop-color="#8BFFBF"/>
+    </linearGradient>
+    <linearGradient id="graph" x1="760" y1="620" x2="1044" y2="620" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6CE7FF"/>
+      <stop offset="1" stop-color="#74F0D7"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="820" rx="38" fill="#07101F"/>
+  <rect width="1200" height="820" rx="38" fill="url(#hero-bg)"/>
+  <circle cx="246" cy="172" r="188" fill="#173564" fill-opacity="0.22"/>
+  <circle cx="992" cy="644" r="164" fill="#113453" fill-opacity="0.18"/>
+  <rect x="28" y="28" width="1144" height="764" rx="34" fill="#09152C" stroke="#FFFFFF" stroke-opacity="0.06"/>
+
+  <rect x="74" y="98" width="330" height="620" rx="44" fill="#081122" stroke="#FFFFFF" stroke-opacity="0.07"/>
+  <rect x="97" y="126" width="284" height="564" rx="34" fill="#0B162D" stroke="#203253" stroke-opacity="0.9"/>
+
+  <rect x="122" y="154" width="166" height="38" rx="19" fill="#10284B"/>
+  <circle cx="144" cy="173" r="6" fill="#8BFFBF"/>
+  <text x="160" y="173" fill="#E7F8F0" font-size="13" font-weight="700" font-family="Manrope, Inter, Arial, sans-serif" dominant-baseline="middle">IA vendedora ativa</text>
+
+  <text x="122" y="226" fill="#6CE7FF" fill-opacity="0.82" font-size="11" letter-spacing="0.24em" font-family="'IBM Plex Mono', monospace">CONVERSA EM TEMPO REAL</text>
+  <text x="122" y="266" fill="#FFFFFF" font-size="32" font-weight="700" font-family="Sora, Inter, Arial, sans-serif">O lead entra.</text>
+  <text x="122" y="304" fill="#FFFFFF" font-size="32" font-weight="700" font-family="Sora, Inter, Arial, sans-serif">A IA conduz.</text>
+
+  <rect x="122" y="344" width="216" height="76" rx="24" fill="#19243F"/>
+  <text x="146" y="374" fill="#FFFFFF" font-size="17" font-weight="600" font-family="Manrope, Inter, Arial, sans-serif">Quero entender os planos.</text>
+  <text x="146" y="402" fill="#8FA5C9" font-size="13" font-family="Manrope, Inter, Arial, sans-serif">WhatsApp inbound</text>
+
+  <rect x="154" y="438" width="218" height="94" rx="26" fill="#79E9D7"/>
+  <text x="178" y="466" fill="#092035" font-size="17" font-weight="700" font-family="Manrope, Inter, Arial, sans-serif">Claro. Qual canal</text>
+  <text x="178" y="494" fill="#092035" font-size="17" font-weight="700" font-family="Manrope, Inter, Arial, sans-serif">gera mais leads hoje?</text>
+
+  <rect x="122" y="544" width="156" height="40" rx="20" fill="#121F39"/>
+  <text x="146" y="564" fill="#FFFFFF" font-size="15" font-weight="600" font-family="Manrope, Inter, Arial, sans-serif" dominant-baseline="middle">WhatsApp</text>
+  <rect x="288" y="544" width="70" height="40" rx="20" fill="#10284B"/>
+  <text x="323" y="564" fill="#6CE7FF" font-size="14" font-weight="700" font-family="Manrope, Inter, Arial, sans-serif" text-anchor="middle" dominant-baseline="middle">Alto</text>
+
+  <rect x="122" y="608" width="236" height="52" rx="22" fill="#101A31"/>
+  <circle cx="148" cy="634" r="6" fill="#8BFFBF"/>
+  <text x="164" y="634" fill="#FFFFFF" font-size="15" font-weight="600" font-family="Manrope, Inter, Arial, sans-serif" dominant-baseline="middle">Lead qualificado</text>
+  <rect x="286" y="620" width="56" height="28" rx="14" fill="#10284B"/>
+  <text x="314" y="634" fill="#6CE7FF" font-size="13" font-weight="700" font-family="Manrope, Inter, Arial, sans-serif" text-anchor="middle" dominant-baseline="middle">92/100</text>
+
+  <rect x="432" y="324" width="336" height="176" rx="34" fill="#0B162D" stroke="url(#panel-stroke)"/>
+  <text x="466" y="364" fill="#6CE7FF" fill-opacity="0.82" font-size="11" letter-spacing="0.22em" font-family="'IBM Plex Mono', monospace">HANDOFF INTELIGENTE</text>
+  <text x="466" y="404" fill="#FFFFFF" font-size="28" font-weight="700" font-family="Sora, Inter, Arial, sans-serif">A conversa vira</text>
+  <text x="466" y="438" fill="#FFFFFF" font-size="28" font-weight="700" font-family="Sora, Inter, Arial, sans-serif">a&#231;&#227;o comercial.</text>
+
+  <path d="M466 476H734" stroke="url(#connector)" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="518" cy="476" r="16" fill="#10284B"/>
+  <circle cx="600" cy="476" r="16" fill="#10284B"/>
+  <circle cx="682" cy="476" r="16" fill="#10284B"/>
+  <circle cx="518" cy="476" r="6" fill="#6CE7FF"/>
+  <circle cx="600" cy="476" r="6" fill="#8BFFBF"/>
+  <circle cx="682" cy="476" r="6" fill="#6CE7FF"/>
+  <text x="518" y="532" fill="#B5C5DD" font-size="13" font-family="Manrope, Inter, Arial, sans-serif" text-anchor="middle">Contexto</text>
+  <text x="600" y="532" fill="#B5C5DD" font-size="13" font-family="Manrope, Inter, Arial, sans-serif" text-anchor="middle">Prioridade</text>
+  <text x="682" y="532" fill="#B5C5DD" font-size="13" font-family="Manrope, Inter, Arial, sans-serif" text-anchor="middle">Pr&#243;xima a&#231;&#227;o</text>
+
+  <rect x="796" y="98" width="320" height="620" rx="40" fill="#081122" stroke="#FFFFFF" stroke-opacity="0.07"/>
+  <rect x="822" y="126" width="268" height="86" rx="26" fill="#0E1F3E"/>
+  <text x="846" y="154" fill="#6CE7FF" fill-opacity="0.82" font-size="11" letter-spacing="0.22em" font-family="'IBM Plex Mono', monospace">TIME PRONTO PARA AGIR</text>
+  <text x="846" y="180" fill="#FFFFFF" font-size="18" font-weight="600" font-family="Manrope, Inter, Arial, sans-serif">Contexto pronto</text>
+  <text x="846" y="202" fill="#FFFFFF" font-size="18" font-weight="600" font-family="Manrope, Inter, Arial, sans-serif">para vender.</text>
+
+  <rect x="822" y="232" width="122" height="104" rx="24" fill="#0E1F3E"/>
+  <text x="846" y="252" fill="#8FA5C9" font-size="10" letter-spacing="0.18em" font-family="'IBM Plex Mono', monospace">TEMPO</text>
+  <text x="846" y="306" fill="#FFFFFF" font-size="42" font-weight="700" font-family="Sora, Inter, Arial, sans-serif">7s</text>
+  <text x="846" y="328" fill="#B5C5DD" font-size="13" font-family="Manrope, Inter, Arial, sans-serif">primeira resposta</text>
+
+  <rect x="956" y="232" width="134" height="104" rx="24" fill="#0E1F3E"/>
+  <text x="980" y="252" fill="#8FA5C9" font-size="10" letter-spacing="0.18em" font-family="'IBM Plex Mono', monospace">CONVERS&#195;O</text>
+  <text x="980" y="306" fill="#FFFFFF" font-size="42" font-weight="700" font-family="Sora, Inter, Arial, sans-serif">+38%</text>
+  <text x="980" y="328" fill="#B5C5DD" font-size="13" font-family="Manrope, Inter, Arial, sans-serif">ganho m&#233;dio</text>
+
+  <rect x="822" y="360" width="268" height="174" rx="28" fill="#0A142A" stroke="#FFFFFF" stroke-opacity="0.05"/>
+  <text x="846" y="380" fill="#8FA5C9" font-size="10" letter-spacing="0.18em" font-family="'IBM Plex Mono', monospace">PIPELINE VIVO</text>
+  <text x="846" y="414" fill="#FFFFFF" font-size="24" font-weight="700" font-family="Sora, Inter, Arial, sans-serif">Prioridade comercial</text>
+
+  <rect x="846" y="446" width="74" height="58" rx="20" fill="#10284B"/>
+  <rect x="930" y="436" width="74" height="68" rx="22" fill="#6CE7FF" fill-opacity="0.88"/>
+  <rect x="1014" y="454" width="52" height="50" rx="18" fill="#8BFFBF" fill-opacity="0.9"/>
+  <text x="850" y="524" fill="#B5C5DD" font-size="13" font-family="Manrope, Inter, Arial, sans-serif">Novo</text>
+  <text x="967" y="524" fill="#B5C5DD" font-size="13" font-family="Manrope, Inter, Arial, sans-serif" text-anchor="middle">Qualificado</text>
+  <text x="1040" y="524" fill="#B5C5DD" font-size="13" font-family="Manrope, Inter, Arial, sans-serif" text-anchor="middle">Demo</text>
+
+  <rect x="822" y="546" width="268" height="154" rx="28" fill="#0A142A" stroke="#FFFFFF" stroke-opacity="0.05"/>
+  <text x="846" y="578" fill="#8FA5C9" font-size="10" letter-spacing="0.18em" font-family="'IBM Plex Mono', monospace">PR&#211;XIMA A&#199;&#195;O</text>
+  <text x="846" y="612" fill="#FFFFFF" font-size="24" font-weight="700" font-family="Sora, Inter, Arial, sans-serif">Agenda sugerida</text>
+  <path d="M846 644H1066" stroke="#FFFFFF" stroke-opacity="0.07"/>
+  <path d="M846 668C888 640 922 652 964 626C996 608 1030 610 1066 618" stroke="url(#graph)" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="1066" cy="618" r="7" fill="#6CE7FF"/>
+  <text x="846" y="690" fill="#B5C5DD" font-size="13" font-family="Manrope, Inter, Arial, sans-serif">Repasse e follow-up sugeridos</text>
+  <text x="846" y="708" fill="#B5C5DD" font-size="13" font-family="Manrope, Inter, Arial, sans-serif">com timing comercial.</text>
+</svg>
